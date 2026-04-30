@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="kiro"
-iso_label="kiro-v26.04.30.01"
-iso_publisher="kiro"
-iso_application="Kiro Live/Rescue CD"
+iso_name="sst"
+iso_label="sst-v26.04.30.01"
+iso_publisher="sst"
+iso_application="sst Live/Rescue CD"
 iso_version="v26.04.30.01"
 install_dir="arch"
 buildmodes=('iso')

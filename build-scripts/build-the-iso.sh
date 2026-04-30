@@ -123,7 +123,7 @@ echo
 	#Let us set the desktop"
 	#First letter of desktop is small letter
 
-	desktop="xfce4/edu-chadwm/ohmychadwm"
+	desktop="plasma"
 
 	sstVersion='v26.04.30.01'
 

@@ -74,7 +74,7 @@ nbd
 ndisc6
 nfs-utils
 nilfs-utils
-#nmap
+nmap
 ntfs-3g
 nvme-cli
 open-iscsi
@@ -246,8 +246,8 @@ system-config-printer
 chromium
 dmenu
 firefox
-galculator
-gcolor3
+#galculator
+#gcolor3
 gimp
 hw-probe
 #imagemagick
@@ -257,7 +257,7 @@ lshw
 #meld
 #numlockx
 #qbittorrent
-scrot
+#scrot
 #simplescreenrecorder-git
 vlc
 vlc-plugins-all
@@ -338,7 +338,7 @@ zsh-syntax-highlighting
 #vivaldi-ffmpeg-codecs
 
 ###cursors
-#bibata-cursor-theme
+bibata-cursor-theme
 
 ###icons
 #numix-icon-theme-git
@@ -430,7 +430,7 @@ tldr
 ttf-ms-fonts
 ttf-font-awesome
 variety
-vimix-cursors
+#vimix-cursors
 yad
 
 ###########################################################################
@@ -500,7 +500,7 @@ chaotic-mirrorlist
 #edu-chadwm-git
 #ohmychadwm-git
 #fastcompmgr-git
-feh
+#feh
 gcc
 lolcat
 lxappearance
@@ -509,9 +509,9 @@ make
 ncdu
 octopi
 #picom-git
-redshift
-rofi
-sxhkd
+#redshift
+#rofi
+#sxhkd
 ttf-jetbrains-mono-nerd
 ttf-meslo-nerd-font-powerlevel10k
 volctl
@@ -522,15 +522,15 @@ xorg-xsetroot
 #ananicy-cpp
 #cachyos-ananicy-rules-git
 #capitaine-cursors
-cpuid
-irqbalance
-glances
-tuned
-pciutils
-sysz
+#cpuid
+#irqbalance
+#glances
+#tuned
+#pciutils
+#sysz
 
 ###########################################################################
 ####                           PERSONAL_REPO aka LOCAL REPO
 ###########################################################################
 
-#kiro-dummy-git
+
