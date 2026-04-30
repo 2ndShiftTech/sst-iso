@@ -230,13 +230,13 @@ gutenprint
 system-config-printer
 
 ###tumbler
-tumbler
-ffmpegthumbnailer
-freetype2
-libgsf
-libopenraw
-poppler-glib
-poppler-qt5
+#tumbler
+#ffmpegthumbnailer
+#freetype2
+#libgsf
+#libopenraw
+#poppler-glib
+#poppler-qt5
 
 #########################################################################
 #                  SOFTWARE FROM ARCH LINUX REPOSITORIES
@@ -250,14 +250,15 @@ galculator
 gcolor3
 gimp
 hw-probe
-imagemagick
-inkscape
+#imagemagick
+#inkscape
+krita
 lshw
-meld
-numlockx
-qbittorrent
+#meld
+#numlockx
+#qbittorrent
 scrot
-simplescreenrecorder-git
+#simplescreenrecorder-git
 vlc
 vlc-plugins-all
 
@@ -275,7 +276,7 @@ ttf-ubuntu-font-family
 
 ###themes
 
-kvantum-qt5
+#kvantum-qt5
 
 ###utilities
 arandr
@@ -294,7 +295,7 @@ file-roller
 git
 gnome-disk-utility
 gnome-keyring
-gnome-screenshot
+#gnome-screenshot
 gparted
 gpick
 hardinfo2
@@ -333,17 +334,17 @@ zsh-syntax-highlighting
 ###########################################################################
 
 ###applications
-vivaldi
-vivaldi-ffmpeg-codecs
+#vivaldi
+#vivaldi-ffmpeg-codecs
 
 ###cursors
-bibata-cursor-theme
+#bibata-cursor-theme
 
 ###icons
-numix-icon-theme-git
-numix-circle-icon-theme-git
-sardi-icons
-surfn-icons-git
+#numix-icon-theme-git
+#numix-circle-icon-theme-git
+#sardi-icons
+#surfn-icons-git
 
 ###tools
 mkinitcpio-openswap
@@ -362,10 +363,10 @@ paru-git
 python-pyparted
 python-pywal
 rate-mirrors
-sublime-text-4
-the_silver_searcher
-unifetch
-visual-studio-code-bin
+#sublime-text-4
+#the_silver_searcher
+#unifetch
+#visual-studio-code-bin
 yay-git
 
 ###########################################################################
@@ -373,7 +374,7 @@ yay-git
 ###########################################################################
 
 calamares
-kiro-calamares-config
+sst-calamares-config
 
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
@@ -390,16 +391,20 @@ sddm-git
 ####                           DESKTOP MANAGERS
 ###########################################################################
 
-xfce4
-xfce4-goodies
+#xfce4
+#xfce4-goodies
+plasma-desktop
+kdialog
+kscreen
+
 
 ###########################################################################
 ####                       APPS
 ###########################################################################
 
-brave-bin
+#brave-bin
 btop
-devtools
+#devtools
 fd
 fish
 inetutils
@@ -415,11 +420,11 @@ python-pylint
 resources
 ripgrep
 ripgrep-all
-signal-desktop
-signal-in-tray
-shortwave
-sparklines-git
-spotify
+#signal-desktop
+#signal-in-tray
+#shortwave
+#sparklines-git
+#spotify
 time
 tldr
 ttf-ms-fonts
@@ -456,45 +461,45 @@ chaotic-mirrorlist
 #edu-qtile-git
 #edu-surfn-numixs-blue-git
 #edu-vimix-dark-tela-git
-arc-gtk-theme
-archlinux-logout-gtk4-git
-archlinux-tweak-tool-gtk4-git
-edu-arc-dawn-git
-edu-arc-kde
-edu-dot-files-git
-edu-hblock-git
-edu-neo-candy-arc-git
-edu-neo-candy-arc-mint-grey-git
-edu-neo-candy-arc-mint-red-git
-edu-neo-candy-qogir-git
-edu-neo-candy-tela-git
-edu-polybar-git
-edu-powermenu-git
-edu-rofi-git
-edu-rofi-themes-git
-edu-sddm-simplicity-git
-edu-shells-git
-edu-system-files-git
-edu-variety-config-git
-edu-xfce-git
-flameshot-git
-lastpass
-neo-candy-icons-git
-pacman-hook-kernel-install
-pamac-aur
-speedtest-cli
-ttf-material-design-iconic-font
-wttr
-xcolor
+#arc-gtk-theme
+#archlinux-logout-gtk4-git
+#archlinux-tweak-tool-gtk4-git
+#edu-arc-dawn-git
+#edu-arc-kde
+#edu-dot-files-git
+#edu-hblock-git
+#edu-neo-candy-arc-git
+#edu-neo-candy-arc-mint-grey-git
+#edu-neo-candy-arc-mint-red-git
+#edu-neo-candy-qogir-git
+#edu-neo-candy-tela-git
+#edu-polybar-git
+#edu-powermenu-git
+#edu-rofi-git
+#edu-rofi-themes-git
+#edu-sddm-simplicity-git
+#edu-shells-git
+#edu-system-files-git
+#edu-variety-config-git
+#edu-xfce-git
+#flameshot-git
+#lastpass
+#neo-candy-icons-git
+#pacman-hook-kernel-install
+#pamac-aur
+#speedtest-cli
+#ttf-material-design-iconic-font
+#wttr
+#xcolor
 
 ###########################################################################
 ####                               NEMESIS REPO
 ###########################################################################
 
-alacritty
-edu-chadwm-git
-ohmychadwm-git
-fastcompmgr-git
+#alacritty
+#edu-chadwm-git
+#ohmychadwm-git
+#fastcompmgr-git
 feh
 gcc
 lolcat
@@ -503,7 +508,7 @@ maim
 make
 ncdu
 octopi
-picom-git
+#picom-git
 redshift
 rofi
 sxhkd
@@ -514,9 +519,9 @@ xautolock
 xclip
 xorg-xsetroot
 
-ananicy-cpp
-cachyos-ananicy-rules-git
-capitaine-cursors
+#ananicy-cpp
+#cachyos-ananicy-rules-git
+#capitaine-cursors
 cpuid
 irqbalance
 glances
