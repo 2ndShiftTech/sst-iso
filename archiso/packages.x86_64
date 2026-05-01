@@ -189,6 +189,7 @@ pulseaudio
 pulseaudio-alsa
 pavucontrol
 
+
 ###bluetooth
 blueberry
 bluez
@@ -533,4 +534,4 @@ xorg-xsetroot
 ####                           PERSONAL_REPO aka LOCAL REPO
 ###########################################################################
 
-
+kde-material-you-colors
