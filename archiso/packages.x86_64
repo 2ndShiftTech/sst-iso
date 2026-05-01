@@ -74,7 +74,7 @@ nbd
 ndisc6
 nfs-utils
 nilfs-utils
-nmap
+#nmap
 ntfs-3g
 nvme-cli
 open-iscsi
@@ -294,8 +294,8 @@ evince
 expac
 file-roller
 git
-gnome-disk-utility
-gnome-keyring
+#gnome-disk-utility
+#gnome-keyring
 #gnome-screenshot
 gparted
 gpick
@@ -354,13 +354,13 @@ mkinitcpio-openswap
 appstream
 archlinux-tools
 downgrade
-fastfetch-git
+#fastfetch-git
 font-manager
-gittyup
+#gittyup
 hardcode-fixer-git
 inxi
-mintstick
-paru-git
+#mintstick
+#paru-git
 python-pyparted
 python-pywal
 rate-mirrors
@@ -395,8 +395,13 @@ sddm-git
 #xfce4
 #xfce4-goodies
 plasma-desktop
+
+###########################################################################
+####                      PLASMA STUFF                                 ####
+###########################################################################
 kdialog
 kscreen
+konsole
 
 
 ###########################################################################
@@ -406,17 +411,17 @@ kscreen
 #brave-bin
 btop
 #devtools
-fd
+#fd
 fish
-inetutils
-menulibre
+#inetutils
+#menulibre
 mkinitcpio-firmware
-most
-mugshot
-namcap
+#most
+#mugshot
+#namcap
 noto-fonts-emoji
-pacmanlogviewer
-pacquery
+#pacmanlogviewer
+#pacquery
 python-pylint
 resources
 ripgrep
@@ -427,12 +432,12 @@ ripgrep-all
 #sparklines-git
 #spotify
 time
-tldr
+#tldr
 ttf-ms-fonts
 ttf-font-awesome
 variety
 #vimix-cursors
-yad
+#yad
 
 ###########################################################################
 ####                               CHAOTICS AUR
