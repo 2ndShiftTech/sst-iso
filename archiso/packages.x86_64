@@ -327,8 +327,8 @@ yt-dlp
 zenity
 zram-generator
 zsh
-zsh-completions
-zsh-syntax-highlighting
+#zsh-completions
+#zsh-syntax-highlighting
 
 ###########################################################################
 #                           REPOS
@@ -539,3 +539,6 @@ xorg-xsetroot
 ###########################################################################
 
 kde-material-you-colors
+oh-my-zsh-sst
+zsh-sst-plugins-core 
+zsh-sst-plugins-extra
