@@ -282,17 +282,17 @@ ttf-ubuntu-font-family
 ###utilities
 arandr
 bash-completion
-baobab
-bat
-catfish
+#baobab
+#bat
+#catfish
 cronie
 dconf-editor
 #dex
 #discord
-duf
-evince
-expac
-file-roller
+#duf
+#evince
+#expac
+#file-roller
 git
 #gnome-disk-utility
 #gnome-keyring
@@ -305,15 +305,15 @@ libmtp
 laptop-detect
 lsb-release
 plocate
-nomacs
-oh-my-zsh-git
+#nomacs
+#oh-my-zsh-git
 p7zip
 pkgfile
 playerctl
 polkit
-polkit-gnome
+#polkit-gnome
 qt5ct
-simple-scan
+#simple-scan
 #telegram-desktop
 #tlp
 tree
@@ -358,12 +358,12 @@ downgrade
 font-manager
 #gittyup
 hardcode-fixer-git
-inxi
+#inxi
 #mintstick
 #paru-git
 python-pyparted
 python-pywal
-rate-mirrors
+#rate-mirrors
 #sublime-text-4
 #the_silver_searcher
 #unifetch
@@ -402,7 +402,6 @@ plasma-desktop
 kdialog
 kscreen
 konsole
-
 
 ###########################################################################
 ####                       APPS
