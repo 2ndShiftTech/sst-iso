@@ -32,7 +32,7 @@ clean_cache() {
         echo "Cleaning the cache from /var/cache/pacman/pkg/"
         tput sgr0
         echo "##################################################################"
-        yes | sudo pacman -Scc
+        yes | sudo pacman -Sycc
     elif [[ "$1" == "no" ]]; then
         echo "Skipping cache cleaning."
     else
@@ -193,7 +193,7 @@ echo
 		echo "######### Installing $package with pacman"
 		echo "################################################################"
 
-		sudo pacman -S --noconfirm $package
+		sudo pacman -Sy --noconfirm $package
 
 	fi
 
@@ -225,7 +225,7 @@ echo
 		echo "######### Installing $package with pacman"
 		echo "################################################################"
 
-		sudo pacman -S --noconfirm $package
+		sudo pacman -Sy --noconfirm $package
 
 	fi
 
