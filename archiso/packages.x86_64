@@ -161,9 +161,10 @@ mesa
 
 ###hardware video support
 #nvidia-open-dkms
-#nvidia-utils
-#nvidia-settings
-mesa-utils
+nvidia
+nvidia-utils
+nvidia-settings
+#mesa-utils
 
 ###base-devel
 base-devel
@@ -540,7 +541,7 @@ xorg-xsetroot
 
 kde-material-you-colors
 
-oh-my-zsh-sst 
+oh-my-zsh-sst
 
 zsh-sst-plugins-extra
 
