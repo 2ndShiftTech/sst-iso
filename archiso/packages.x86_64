@@ -154,9 +154,9 @@ xf86-video-ati
 xf86-video-fbdev
 xf86-video-intel
 xf86-video-nouveau
-xf86-video-openchrome
+#xf86-video-openchrome
 xf86-video-vesa
-xf86-video-vmware
+#xf86-video-vmware
 mesa
 
 ###hardware video support
@@ -539,6 +539,8 @@ xorg-xsetroot
 ###########################################################################
 
 kde-material-you-colors
-oh-my-zsh-sst
-zsh-sst-plugins-core 
+oh-my-zsh-sst 
 zsh-sst-plugins-extra
+zsh-sst-plugins-core
+
+
