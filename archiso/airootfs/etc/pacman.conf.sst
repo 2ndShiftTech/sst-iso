@@ -100,6 +100,10 @@ Include = /etc/pacman.d/mirrorlist
 #SigLevel = Optional TrustAll
 #Server = file:///home/custompkgs
 
+[sst-repo]
+SigLevel = Never
+Server = https://2ndShiftTech.github.io/sst-repo/x86_64
+
 [nemesis_repo]
 SigLevel = Never
 Server = https://erikdubois.github.io/$repo/$arch

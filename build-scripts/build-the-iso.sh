@@ -32,7 +32,7 @@ clean_cache() {
         echo "Cleaning the cache from /var/cache/pacman/pkg/"
         tput sgr0
         echo "##################################################################"
-        yes | sudo pacman -Sycc
+        yes | sudo pacman -Scc
     elif [[ "$1" == "no" ]]; then
         echo "Skipping cache cleaning."
     else
@@ -125,7 +125,7 @@ echo
 
 	desktop="plasma"
 
-	sstVersion='v26.05.02.01'
+	sstVersion='v26.05.01.01'
 
 	isoLabel='sst-'$sstVersion'-x86_64.iso'
 
@@ -193,7 +193,7 @@ echo
 		echo "######### Installing $package with pacman"
 		echo "################################################################"
 
-		sudo pacman -Sy --noconfirm $package
+		sudo pacman -S --noconfirm $package
 
 	fi
 
@@ -225,7 +225,7 @@ echo
 		echo "######### Installing $package with pacman"
 		echo "################################################################"
 
-		sudo pacman -Sy --noconfirm $package
+		sudo pacman -S --noconfirm $package
 
 	fi
 

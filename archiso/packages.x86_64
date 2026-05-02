@@ -161,7 +161,7 @@ mesa
 
 ###hardware video support
 #nvidia-open-dkms
-nvidia
+#nvidia
 nvidia-utils
 nvidia-settings
 #mesa-utils
@@ -525,8 +525,8 @@ xautolock
 xclip
 xorg-xsetroot
 
-#ananicy-cpp
-#cachyos-ananicy-rules-git
+ananicy-cpp
+cachyos-ananicy-rules-git
 #capitaine-cursors
 #cpuid
 #irqbalance
