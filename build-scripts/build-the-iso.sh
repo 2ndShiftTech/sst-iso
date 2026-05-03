@@ -125,7 +125,7 @@ echo
 
 	desktop="plasma"
 
-	sstVersion='v26.05.01.01'
+	sstVersion='v26.05.03.01'
 
 	isoLabel='sst-'$sstVersion'-x86_64.iso'
 

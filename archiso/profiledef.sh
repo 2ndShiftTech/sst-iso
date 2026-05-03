@@ -2,10 +2,10 @@
 # shellcheck disable=SC2034
 
 iso_name="sst"
-iso_label="sst-v26.05.02.01"
+iso_label="sst-v26.05.03.01"
 iso_publisher="sst"
 iso_application="sst Live/Rescue CD"
-iso_version="v26.05.02.01"
+iso_version="v26.05.03.01"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux'
