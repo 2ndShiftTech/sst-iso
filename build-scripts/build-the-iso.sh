@@ -134,6 +134,11 @@ echo
 	buildFolder=$HOME"/sst-build"
 	outFolder=$HOME"/sst-Out"
 
+	# Isolated package cache — sits next to this script inside the repo
+	# Every build pulls fresh packages here instead of using the system cache
+	pkgCacheFolder="$installed_dir/installed-pkgs"
+	mkdir -p "$pkgCacheFolder"
+
 	# If you want to add packages from the chaotics-aur repo then
 	# change the variable to true and add the package names
 	# that are hosted on chaotics-aur in the packages.x86_64 at the bottom
@@ -254,6 +259,7 @@ echo
 	echo "Iso label                              : "$isoLabel
 	echo "Build folder                           : "$buildFolder
 	echo "Out folder                             : "$outFolder
+	echo "Package cache folder                   : "$pkgCacheFolder
 	echo "################################################################## "
 	echo
 
@@ -432,6 +438,34 @@ echo
 	# cleaning cache yes or no
 	echo
 	clean_cache no
+
+echo
+echo "################################################################## "
+tput setaf 2
+echo "Phase 6 :"
+echo "- Clearing isolated package cache to force fresh downloads"
+echo "- Injecting CacheDir into pacman.conf"
+tput sgr0
+echo "################################################################## "
+echo
+
+	echo "Clearing installed-pkgs cache at: $pkgCacheFolder"
+	sudo rm -rf "$pkgCacheFolder"
+	mkdir -p "$pkgCacheFolder"
+	echo "Cache cleared — all packages will be freshly downloaded this build."
+	echo
+
+	# Inject the isolated CacheDir into the build's pacman.conf
+	# This tells mkarchiso to download into our folder instead of /var/cache/pacman/pkg/
+	PACMAN_CONF="$buildFolder/archiso/pacman.conf"
+	echo "Injecting CacheDir into $PACMAN_CONF"
+	sudo sed -i "s|^#CacheDir.*|CacheDir = $pkgCacheFolder/|" "$PACMAN_CONF"
+	# If CacheDir line doesn't exist at all, add it under [options]
+	if ! grep -q "^CacheDir" "$PACMAN_CONF"; then
+		sudo sed -i "/^\[options\]/a CacheDir = $pkgCacheFolder/" "$PACMAN_CONF"
+	fi
+	echo "CacheDir set to: $pkgCacheFolder"
+	echo
 
 echo
 echo "################################################################## "
