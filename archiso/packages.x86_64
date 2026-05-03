@@ -10,11 +10,11 @@ bind
 #brltty
 #broadcom-wl-dkms
 btrfs-progs
-clonezilla
+#clonezilla
 #cloud-init
 cryptsetup
 #darkhttpd
-ddrescue
+#ddrescue
 #dhcpcd
 diffutils
 dmidecode
@@ -78,12 +78,12 @@ nilfs-utils
 ntfs-3g
 nvme-cli
 open-iscsi
-open-vm-tools
+#open-vm-tools
 openconnect
 #openpgp-card-tools
 openssh
 openvpn
-partclone
+#partclone
 parted
 partimage
 pcsclite
@@ -120,7 +120,7 @@ vim
 vpnc
 wireless-regdb
 wireless_tools
-wpa_supplicant
+#wpa_supplicant
 wvdial
 xdg-utils
 xfsprogs
@@ -170,7 +170,7 @@ nvidia-settings
 base-devel
 
 ###virtual box or vmware
-virtualbox-guest-utils
+#virtualbox-guest-utils
 
 ###packages for dual boot
 os-prober
@@ -247,10 +247,10 @@ system-config-printer
 ###applications
 chromium
 dmenu
-firefox
+#firefox
 #galculator
 #gcolor3
-gimp
+#gimp
 hw-probe
 #imagemagick
 #inkscape
@@ -403,6 +403,15 @@ plasma-desktop
 kdialog
 kscreen
 konsole
+plasma-nm
+plasma-workspace
+kdeplasma-addons
+kinfocenter
+kio-extras
+systemsettings
+xdg-desktop-portal-kde
+discover
+flatpak
 
 ###########################################################################
 ####                       APPS
