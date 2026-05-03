@@ -412,6 +412,8 @@ systemsettings
 xdg-desktop-portal-kde
 discover
 flatpak
+gwenview
+dolphin
 
 ###########################################################################
 ####                       APPS
