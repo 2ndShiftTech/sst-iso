@@ -1,14 +1,11 @@
-# KIRO ISO
+# 2ndShiftTech ISO
 
-![Kiro Logo](images/kiro.jpg)
+This is a personal ISO i am using for reasons.
 
-![Kiro Desktop - XFCE](images/kiro-xfce.jpg)
+If you would like to make your own, follow the guidelines below
 
-![Kiro Desktop - Chadwm](images/kiro-chadwm.jpg)
+Thank you Erik Dubois, without you I could not have learned how to do this.
 
-![Kiro Desktop - Ohmychadwm](images/kiro-ohmychadwm.jpg)
-
----
 
 ## Overview
 
