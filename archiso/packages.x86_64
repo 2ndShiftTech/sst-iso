@@ -18,7 +18,7 @@ cryptsetup
 #dhcpcd
 diffutils
 dmidecode
-dmraid
+#dmraid
 dnsmasq
 dosfstools
 e2fsprogs
@@ -42,7 +42,7 @@ intel-ucode
 #irssi
 iw
 iwd
-jfsutils
+#jfsutils
 #kitty-terminfo
 ldns
 less
@@ -50,7 +50,7 @@ less
 libfido2
 libusb-compat
 linux
-linux-atm
+#linux-atm
 linux-firmware
 linux-firmware-marvell
 #livecd-sounds
@@ -70,25 +70,25 @@ mkinitcpio-nfs-utils
 modemmanager
 mtools
 nano
-nbd
+#nbd
 ndisc6
 nfs-utils
-nilfs-utils
+#nilfs-utils
 #nmap
 ntfs-3g
 nvme-cli
-open-iscsi
+#open-iscsi
 #open-vm-tools
-openconnect
+#openconnect
 #openpgp-card-tools
 openssh
 openvpn
 #partclone
 parted
-partimage
+#partimage
 pcsclite
-ppp
-pptpclient
+#ppp
+#pptpclient
 pv
 qemu-guest-agent
 refind
@@ -111,20 +111,20 @@ testdisk
 tmux
 #tpm2-tools
 tpm2-tss
-udftools
+#udftools
 usb_modeswitch
-usbmuxd
+#usbmuxd
 usbutils
 vim
 #virtualbox-guest-utils-nox
-vpnc
+#vpnc
 wireless-regdb
 wireless_tools
 #wpa_supplicant
-wvdial
+#wvdial
 xdg-utils
 xfsprogs
-xl2tpd
+#xl2tpd
 
 ###archiso-extra
 aic94xx-firmware
@@ -144,15 +144,15 @@ xorg-apps
 xorg-xinit
 
 ###video
-xf86-input-elographics
-xf86-input-evdev
+#xf86-input-elographics
+#xf86-input-evdev
 xf86-input-libinput
-xf86-input-vmmouse
-xf86-input-void
+#xf86-input-vmmouse
+#xf86-input-void
 xf86-video-amdgpu
-xf86-video-ati
+#xf86-video-ati
 xf86-video-fbdev
-xf86-video-intel
+#xf86-video-intel
 xf86-video-nouveau
 #xf86-video-openchrome
 xf86-video-vesa
@@ -204,10 +204,10 @@ nss-mdns
 mobile-broadband-provider-info
 networkmanager
 network-manager-applet
-networkmanager-openconnect
+#networkmanager-openconnect
 networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
+#networkmanager-pptp
+#networkmanager-vpnc
 
 ###file management
 gvfs
@@ -246,7 +246,7 @@ system-config-printer
 
 ###applications
 chromium
-dmenu
+#dmenu
 #firefox
 #galculator
 #gcolor3
@@ -263,6 +263,7 @@ lshw
 #simplescreenrecorder-git
 vlc
 vlc-plugins-all
+
 
 lm_sensors
 
@@ -522,7 +523,7 @@ chaotic-mirrorlist
 #feh
 gcc
 lolcat
-lxappearance
+#lxappearance
 maim
 make
 ncdu
@@ -534,9 +535,9 @@ octopi
 ttf-jetbrains-mono-nerd
 ttf-meslo-nerd-font-powerlevel10k
 volctl
-xautolock
+#xautolock
 xclip
-xorg-xsetroot
+#xorg-xsetroot
 
 ananicy-cpp
 cachyos-ananicy-rules-git
