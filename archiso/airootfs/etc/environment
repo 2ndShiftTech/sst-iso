@@ -2,4 +2,4 @@ QT_QPA_PLATFORMTHEME=qt5ct
 QT_STYLE_OVERRIDE=Breeze
 GTK_THEME=Arc-Dawn-Dark
 EDITOR=nano
-BROWSER=firefox
+BROWSER=chromium
