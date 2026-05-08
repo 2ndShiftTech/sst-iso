@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="sst"
-iso_label="sst-v26.05.03.03"
-iso_publisher="sst"
-iso_application="sst Live/Rescue CD"
-iso_version="v26.05.03.03"
+iso_name="Red-Arch"
+iso_label="Red-Arch-v26.05.03.03"
+iso_publisher="Red-Arch"
+iso_application="Red-Arch Live/Rescue CD"
+iso_version="v26.05.08.01"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux'
